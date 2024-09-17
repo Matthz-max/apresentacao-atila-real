@@ -1,0 +1,869 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+     overflow-x: hidden;
+}
+
+@media screen and (max-width: 1420px){
+   
+
+#fundo_ferrari{
+
+        position: absolute;
+        margin-left: 0px;
+        width: 1400px;
+        height: 1000px;
+        margin-top: -300px;
+        position: absolute;
+        z-index: -3;
+         
+}
+    
+footer{
+    
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 106vw;
+        background:linear-gradient(72deg, #ec8d11 1% , #000000 99%);
+        z-index: -1;
+        margin-top: 590px;
+        margin-left: -5px;
+        z-index: -3;
+}
+     
+      
+.content{
+        height: 525px;
+        width: 600px;
+        border-radius: 20px;
+        overflow: hidden;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 657px;
+        margin-left: -300px;
+        z-index: 4;
+        overflow-y: hidden;
+}
+
+#caixa_teste{
+
+    width: 590px;
+    height: 23px;
+    background: rgb(190, 190, 190);
+    margin-top: 549px;
+    margin-left: 65px;
+    border-radius: 10px;
+    position: absolute;
+}
+#carro{
+
+    font-size: 15px;
+    margin-top: -6px;
+    
+
+}
+.navigation{
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+
+}
+.bar{
+    
+        width: 65px;
+        height: 23px;
+        border: 2px solid #f0740e;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: .6s;
+        background: rgb(0, 0, 0);
+        font-size: 12px;
+        color: rgb(235, 138, 11);
+        
+          
+        
+}
+.bar:hover{
+        background-color: #fff;
+}
+    input{
+        display: none;
+}
+.slides{
+        display: flex;
+        width: 500%;
+        height: 100%;
+}
+.slide{
+    
+        width: 20%;
+        transition: .6s;
+}
+    .slide img {
+    
+        width:100%;
+        height:100%;
+}
+#slide1:checked ~ .s1 {
+    
+         
+    margin-left: 0%;
+}
+#slide2:checked ~ .s1{
+        margin-left: -20%;
+}
+#slide3:checked ~ .s1{
+    
+        margin-left: -40%;
+}
+#slide4:checked ~ .s1{
+         
+        margin-left: -60%;
+}
+#slide5:checked ~ .s1 {
+         
+        margin-left: -80%;
+}
+     
+#caixa{
+    
+    
+        width: 450px;
+        height: 100px;
+        background: rgb(230, 230, 230);
+        margin: auto;
+        margin-top: 55px;
+        position: absolute;
+        margin-left: 655px;
+        z-index: 2;
+        border-radius: 0px 10px 0px 0;
+        border-top: 2px solid orange;
+        border-right: 2px solid orange;
+    
+}
+    
+#caixa1{
+    
+    
+        width: 450px;
+        height: 100px;
+        background: rgb(230, 230, 230);
+        margin: auto;
+        margin-top: 356px;
+        position: absolute;
+        margin-left: 655px;
+        z-index: 2;
+        border-right: 2px solid orange;
+        
+}
+    
+#caixa2{
+    
+    
+        width: 450px;
+        height: 100px;
+        background: rgb(230, 230, 230);
+        margin: auto;
+        margin-top: 155px;
+        position: absolute;
+        margin-left: 655px;
+        z-index: 2;
+         border-top: 2px solid orange;
+         border-right: 2px solid orange;
+}
+    
+#caixa3{
+        width: 450px;
+        height: 100px;
+        background: rgb(230, 230, 230);
+        margin: auto;
+        margin-top: 456px;
+        position: absolute;
+        margin-left: 655px;
+        z-index: 2;
+        border-radius: 0px 0px 10px 0;
+        border: 2px solid orange;
+         
+    
+}
+    
+#caixa4{
+    
+    
+        width: 450px;
+        height: 103px;
+        background: rgb(230, 230, 230);
+        margin: auto;
+        margin-top: 255px;
+        position: absolute;
+        margin-left: 655px;
+        z-index: 2;
+        border: 2px solid orange;
+         
+        
+}
+      
+#lamb_1{
+    
+    font-size: 24px;
+    margin-left: 680px;
+    margin-top: 55px;
+    position: absolute;
+    z-index: 2;
+}
+#pagani_1{
+    
+    font-size: 24px;
+    margin-left: 680px;
+    margin-top: 155px;
+    position: absolute;
+    z-index: 3;
+    
+}
+#mclaren_1{
+    
+        font-size: 24px;
+        margin-left: 685px;
+        margin-top: 260px;
+        position: absolute;
+        z-index: 3;
+}
+#koenigsegg_1{
+    
+        font-size: 24px;
+        margin-left: 685px;
+        margin-top: 360px;
+        position: absolute;
+        z-index: 3;
+    
+}
+#ferrari_1{
+    
+        font-size: 24px;
+        margin-left: 685px;
+        margin-top: 470px;
+        position: absolute;
+        z-index: 3;
+    
+}
+#text1{
+        font-size: 20px;
+        margin-left: 685px;
+        margin-top: 85px;
+        position: absolute;
+        z-index: 3;
+        background: gray;
+        padding: 4px;
+        border-radius: 5px;
+}
+#text2{
+        font-size: 20px;
+        margin-left: 680px;
+        margin-top: 185px;
+        position: absolute;
+        z-index: 3;
+        background: gray;
+        padding: 4px;
+        border-radius: 5px;
+}
+#text3{
+        font-size: 20px;
+        margin-left: 685px;
+        margin-top: 290px;
+        position: absolute;
+        z-index: 3;
+        background: orange;
+        padding: 4px;
+        border-radius: 5px;
+}
+#text4{
+        font-size: 20px;
+        margin-left: 685px;
+        margin-top: 390px;
+        position: absolute;
+        z-index: 3;
+        background: gray;
+        padding: 4px;
+        border-radius: 5px;
+}
+#text5{
+        font-size: 20px;
+        margin-left: 685px;
+        margin-top: 500px;
+        position: absolute;
+        z-index: 3;
+        background: gray;
+        padding: 4px;
+        border-radius: 5px;
+    
+}
+    
+#alugar{
+    
+        width: 100px;
+        height: 60px;
+        margin: auto;
+        margin-left: 990px;
+        margin-top: 275px;
+        z-index: 4;
+        border-radius: 20px;
+        position: absolute;
+        background: orange;
+        text-decoration: none;
+        
+}
+    
+#alugar li a{
+    
+        font-size: 20px;
+        color: black;
+        margin-left: 15px;
+        margin-top: 10px;
+        position: absolute;
+        padding:  5px;
+        text-decoration: none;
+}
+    
+    
+#caixa_footer{
+    
+    width: 1400px;
+    height: 200px;
+    background:rgb(240, 133, 11);
+    margin-top: 200px;
+    margin: auto;
+    z-index: 2;
+    
+}
+#saiba{
+    
+    font-size: 27px;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 5;
+}
+#sobre{
+    
+    font-size: 18px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 70px;
+    z-index: 5;
+}
+#perguntas{
+       font-size: 18px;
+       margin-left: 420px;
+       margin-top: 70px;
+       position: absolute;
+       z-index: 5;
+}
+    
+    
+#traco1{
+    width: 3px;
+    height: 12px;
+    background: gray;
+    margin: auto;
+    margin-left: 90px;
+    position: absolute;
+    margin-top: 75px;
+    z-index: 5;
+    
+}
+    
+#traco2{
+        width: 3px;
+        height: 12px;
+        background: gray;
+        margin: auto;
+        margin-left: 400px;
+        position: absolute;
+        margin-top: 75px;
+        z-index: 5;
+}
+
+
+header{
+
+    background-color: #000000;
+    box-shadow: 0px 3px 10px #000000;
+    width: 720px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+     
+}
+.logo img{
+ 
+    width: 100px;
+    height: 70px;
+    margin-left: -80px;
+     position: absolute;
+ 
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+}
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+     
+}
+.nav-item{
+    margin: 0 15px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+
+}
+.login-button button{
+
+border: none;
+background-color: #0187a7;
+padding: 10px 15px;
+border-radius: 5px;
+margin-top: 15px;
+
+}
+.login-button button a{
+
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+
+}
+.mobile-menu-icon{
+    display: none;
+
+}
+.mobile-menu{
+    display: none;
+}
+}
+ 
+@media screen and (max-width: 700px){
+
+.nav-bar{
+    padding: 1.5rem 7rem;
+     
+}
+.nav-item{
+    display: none;
+}
+.login-button{
+    display: none;
+}
+.mobile-menu-icon{
+    display: block;
+    
+}
+.mobile-menu-icon button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+    
+}
+.mobile-menu ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-top: -80px;
+    position: absolute;
+    padding-left: 15rem;
+   
+     
+}
+.mobile-menu .nav-item{
+    display: block;
+    padding-top: 1.2rem;
+    
+}
+.mobile-menu .login-button button{
+    width: 100%;
+     
+}
+.open{
+    display: block;
+}
+
+#fundo_ferrari{
+
+    width: 1400px;
+    height: 500px;
+    margin-left: -325px;
+    margin-top: -150px;
+    z-index: -5;
+}
+ 
+footer{
+    
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 129vw;
+    background:linear-gradient(72deg, #ec8d11 1% , #000000 99%);
+    
+    margin-top: 330px;
+    z-index: -3;
+}
+
+
+.content{
+
+    height: 305px;
+    width: 320px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 350px;
+    margin-left: -120px;
+    z-index: 4;
+    overflow-y: hidden;
+     
+
+
+}
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+.bar{
+
+    width: 55px;
+    height: 23px;
+    border: 2px solid #f0740e;
+    margin: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .6s;
+    background: rgb(0, 0, 0);
+    font-size: 9px;
+    color: rgb(235, 138, 11);
+     padding: 2px;
+    
+}
+.bar:hover{
+    background-color: #fff;
+}    
+
+
+    
+#caixa{
+    
+    
+    width: 240px;
+    height: 60px;
+    background: rgb(230, 230, 230);
+    margin: auto;
+    margin-top: 85px;
+    position: absolute;
+    margin-left: 340px;
+    z-index: 2;
+    border-radius: 0px 10px 0px 0;
+    border-top: 2px solid orange;
+    border-right: 2px solid orange;
+
+}
+
+#caixa1{
+
+
+    width: 240px;
+    height: 60px;
+    background: rgb(230, 230, 230);
+    margin: auto;
+    margin-top: 205px;
+    position: absolute;
+    margin-left: 340px;
+    z-index: 2;
+    border-top: 2px solid orange;
+    border-right: 2px solid orange;
+    
+}
+
+#caixa2{
+
+
+    width: 240px;
+    height: 60px;
+    background: rgb(230, 230, 230);
+    margin: auto;
+    margin-top: 145px;
+    position: absolute;
+    margin-left: 340px;
+    z-index: 2;
+     border-top: 2px solid orange;
+     border-right: 2px solid orange;
+}
+
+#caixa3{
+    width: 240px;
+    height: 60px;
+    background: rgb(230, 230, 230);
+    margin: auto;
+    margin-top: 315px;
+    position: absolute;
+    margin-left: 340px;
+    z-index: 2;
+    border-radius: 0px 0px 10px 0;
+    border: 2px solid orange;
+     
+
+}
+
+#caixa4{
+
+
+    width: 240px;
+    height: 60px;
+    background: rgb(230, 230, 230);
+    margin: auto;
+    margin-top: 255px;
+    position: absolute;
+    margin-left: 340px;
+    z-index: 2;
+    border-right: 2px solid orange;
+     
+    
+}
+  
+#lamb_1{
+
+font-size: 15px;
+margin-left: 356px;
+margin-top: 90px;
+position: absolute;
+z-index: 2;
+}
+#pagani_1{
+
+font-size: 15px;
+margin-left: 370px;
+margin-top: 153px;
+position: absolute;
+z-index: 3;
+
+}
+#mclaren_1{
+
+    font-size: 15px;
+    margin-left: 370px;
+    margin-top: 210px;
+    position: absolute;
+    z-index: 3;
+}
+#koenigsegg_1{
+
+    font-size: 15px;
+    margin-left: 370px;
+    margin-top: 260px;
+    position: absolute;
+    z-index: 3;
+
+}
+#ferrari_1{
+
+    font-size: 16px;
+    margin-left: 390px;
+    margin-top: 320px;
+    position: absolute;
+    z-index: 3;
+
+}
+#text1{
+    font-size: 13px;
+    margin-left: 375px;
+    margin-top: 110px;
+    position: absolute;
+    z-index: 3;
+    background: gray;
+    padding: 4px;
+    border-radius: 5px;
+     
+}
+#text2{
+    font-size: 13px;
+    margin-left: 375px;
+    margin-top: 175px;
+    position: absolute;
+    z-index: 3;
+    background: gray;
+    padding: 4px;
+    border-radius: 5px;
+}
+#text3{
+    font-size: 13px;
+    margin-left: 385px;
+    margin-top: 227px;
+    position: absolute;
+    z-index: 3;
+    background: orange;
+    padding: 4px;
+    border-radius: 5px;
+}
+#text4{
+    font-size: 13px;
+    margin-left: 375px;
+    margin-top: 280px;
+    position: absolute;
+    z-index: 3;
+    background: gray;
+    padding: 4px;
+    border-radius: 5px;
+}
+#text5{
+    font-size: 13px;
+    margin-left: 375px;
+    margin-top: 342px;
+    position: absolute;
+    z-index: 3;
+    background: gray;
+    padding: 4px;
+    border-radius: 5px;
+
+}
+
+#alugar{
+
+    width: 50px;
+    height: 30px;
+    margin: auto;
+    margin-left: 520px;
+    margin-top: 218px;
+    z-index: 4;
+    border-radius: 20px;
+    position: absolute;
+    background: orange;
+    text-decoration: none;
+    
+}
+
+#alugar li a{
+
+    font-size: 12px;
+    color: black;
+    margin-left: 4px;
+    margin-top: 4px;
+    position: absolute;
+    padding:  5px;
+    text-decoration: none;
+    
+}
+
+
+#caixa_footer{
+
+width: 750px;
+height: 200px;
+background:rgb(240, 133, 11);
+top: 300px;
+margin: auto;
+z-index: 2;
+margin-left: -80px;
+
+}
+#saiba{
+
+font-size: 27px;
+color: black;
+text-transform: uppercase;
+margin-left: 90px;
+margin-top: 10px;
+position: absolute;
+z-index: 5;
+}
+#sobre{
+
+font-size: 18px;
+position: absolute;
+margin-left: 100px;
+margin-top: 70px;
+z-index: 5;
+}
+#perguntas{
+   font-size: 18px;
+   margin-left: 420px;
+   margin-top: 70px;
+   position: absolute;
+   z-index: 5;
+}
+
+
+#traco1{
+width: 3px;
+height: 12px;
+background: gray;
+margin: auto;
+margin-left: 90px;
+position: absolute;
+margin-top: 75px;
+z-index: 5;
+
+}
+
+#traco2{
+    width: 3px;
+    height: 12px;
+    background: gray;
+    margin: auto;
+    margin-left: 400px;
+    position: absolute;
+    margin-top: 75px;
+    z-index: 5;
+}
+
+#caixa_teste{
+
+    width: 312px;
+    height: 23px;
+    background: rgb(190, 190, 190);
+    margin-top: 364px;
+    margin-left: 38px;
+    border-radius: 10px;
+    position: absolute;
+}
+#carro{
+
+    font-size: 15px;
+    margin-top: -6px;
+    
+
+}
+
+
+}
